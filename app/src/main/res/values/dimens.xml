@@ -5,4 +5,5 @@
     <dimen name="small">10dp</dimen>
     <dimen name="icon">30dp</dimen>
     <dimen name="medium">20dp</dimen>
+    <dimen name="img_template">160dp</dimen>
 </resources>

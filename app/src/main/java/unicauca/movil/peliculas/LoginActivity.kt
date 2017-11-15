@@ -18,6 +18,7 @@ class LoginActivity : AppCompatActivity() {
 
     fun login(){
         startActivity<MainActivity>()
+        finish()
     }
 
     fun signin(){

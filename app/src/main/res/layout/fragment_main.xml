@@ -4,6 +4,15 @@
     android:layout_height="match_parent"
     tools:context="unicauca.movil.peliculas.fragments.MainFragment">
 
-
+    <TextView
+        android:id="@+id/info"
+        style="@style/TextAppearance.AppCompat.Display1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#33b4e5"
+        android:gravity="center"
+        android:textColor="#fff"
+        tools:text="Hola"
+        />
 
 </FrameLayout>
