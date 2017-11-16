@@ -10,7 +10,7 @@ object Data {
                     "Diana, una princesa guerrera perteneciente al pueblo de las amazonas, fue criada en una isla protegida y entrenada para ser una luchadora invencible. Después de que un piloto estadounidense, Steve Trevor, se estrellase en dicha isla, es salvado por la princesa, a quien le relata sobre el desarrollo de una guerra mundial que está sucediendo. Entonces, Diana sale de su hogar para tratar de detener la guerra."),
 
             Pelicula("Alien Covenan", "220 min", "18 de Mayo",
-                    "https://www.diariodemorelos.com/noticias/sites/default/files/field/image/alien%20diario%20de%20morelos.jpg",
+                    "https://www.diariodemorelos.com/noticias/sites/default/files/field/image/alien-covenant-diariodemorelos.jpg",
                     "En 2104, la nave colonial Covenant, con 2000 colonos y 1400 embriones a bordo, se dirige al remoto planeta Origae-6, vigilados por el androide Walter. Una onda de radiación neutrónica daña la nave, matando al capitán y despertando a la tripulación. Mientras reparan los daños, la tripulación detecta una señal de radio de origen humano procedente de un planeta cercano que aparentemente no tiene vida. En contra del criterio de Daniels, la experta en terraformación, el capitán Oram, oficial ejecutivo de la nave, decide investigar."),
 
             Pelicula("Justice League", "240 min", "16 de Noviembre",

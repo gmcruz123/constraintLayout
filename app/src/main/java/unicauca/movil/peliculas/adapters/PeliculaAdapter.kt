@@ -9,7 +9,7 @@ import unicauca.movil.peliculas.databinding.TemplatePeliculaBinding
 import unicauca.movil.peliculas.models.Pelicula
 import unicauca.movil.peliculas.util.inflate
 
-class PeliculaAdapter : RecyclerView.Adapter<PeliculaViewHolder>() {
+class PeliculaAdapter(val callback:(pos:Int)->Unit) : RecyclerView.Adapter<PeliculaViewHolder>() {
 
     var data: List<Pelicula> = emptyList()
         set(value) {
@@ -19,6 +19,12 @@ class PeliculaAdapter : RecyclerView.Adapter<PeliculaViewHolder>() {
 
     override fun onBindViewHolder(holder: PeliculaViewHolder, position: Int) {
         holder.binding.movie = data[position]
+        holder.binding.root.tag = position
+        holder.binding.handler = this
+    }
+
+    fun onMovieClick(pos:Int){
+        callback(pos)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PeliculaViewHolder

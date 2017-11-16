@@ -13,4 +13,9 @@
     <string name="fantasy">Fantasia</string>
     <string name="scifi">Scifi</string>
     <string name="adventure">Aventura</string>
+    <string name="home">Inicio</string>
+    <string name="profile">Perfil</string>
+    <string name="logut">Cerrar Sesion</string>
+    <string name="open_menu">Categorias</string>
+    <string name="close_menu">Menu cerrado</string>
 </resources>
