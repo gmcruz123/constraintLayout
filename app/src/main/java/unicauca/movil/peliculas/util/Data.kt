@@ -4,7 +4,7 @@ import unicauca.movil.peliculas.models.Pelicula
 
 object Data {
 
-    private var peliculas: MutableList<Pelicula> = mutableListOf(
+    var peliculas: MutableList<Pelicula> = mutableListOf(
             Pelicula("Wonder Woman", "210 min", "30 de Mayo",
                     "http://static.dnaindia.com/sites/default/files/2017/03/11/555566-wonder-woman-poster.jpg",
                     "Diana, una princesa guerrera perteneciente al pueblo de las amazonas, fue criada en una isla protegida y entrenada para ser una luchadora invencible. Después de que un piloto estadounidense, Steve Trevor, se estrellase en dicha isla, es salvado por la princesa, a quien le relata sobre el desarrollo de una guerra mundial que está sucediendo. Entonces, Diana sale de su hogar para tratar de detener la guerra."),

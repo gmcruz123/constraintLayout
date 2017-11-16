@@ -12,11 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        putFragment(R.id.container1, MainFragment.instance(Color.rgb(255, 0, 0)
-                , "Rojo"))
-
-        putFragment(R.id.container2, MainFragment.instance(Color.rgb(0, 0, 255)
-                , "Azul"))
+        putFragment(R.id.container, MainFragment.instance())
 
     }
 
